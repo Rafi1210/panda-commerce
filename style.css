@@ -26,12 +26,17 @@
 
 .cat-1{
     background-color: orange;
+    background-image: linear-gradient(to right,orange , white 120%);
 }
 .cat-2{
     background-color: orchid;
+    background-image: linear-gradient(to left,white ,orchid 160%);
+
 }
 .cat-3{
     background-color: blue;
+    background-image: linear-gradient(to right,blue , white 140%);
+
 }
 .categories h1{
     color: white;
@@ -43,6 +48,18 @@
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
-    transition: 0.4s;
+    box-shadow: 5px 5px 10px lightgray;  
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
