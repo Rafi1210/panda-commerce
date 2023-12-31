@@ -8,6 +8,17 @@
 .carousel-item{
     padding: 20px 100px;
 }
+.btn-outline-danger{
+    margin-left: 3px;
+    border-color: #fba79e;
+    color: #fba79e;
+    
+}
+.btn-outline-danger:hover{
+background-color: #d82e78;
+border-color: #d82e78;
+}
+
 .price{
     color: #FF136F;
 }
